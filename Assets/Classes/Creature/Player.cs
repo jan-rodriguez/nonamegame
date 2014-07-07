@@ -32,7 +32,6 @@ public class Player : Creature
 			if (xInp != 0) {
 				rigidBody.AddForce(new Vector2(xInp * movementMultiplier, 0));
 			}
-			
 			if (yInp != 0) {
 				rigidBody.AddForce(new Vector2(0, yInp * movementMultiplier));
 			}

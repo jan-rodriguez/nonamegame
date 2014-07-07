@@ -123,8 +123,8 @@ HingeJoint2D:
     m_MaximumMotorForce: 10000
   m_UseLimits: 1
   m_AngleLimits:
-    m_LowerAngle: -45
-    m_UpperAngle: 45
+    m_LowerAngle: -30
+    m_UpperAngle: 30
 --- !u!50 &65139157
 Rigidbody2D:
   m_ObjectHideFlags: 0
@@ -234,6 +234,14 @@ Prefab:
     - target: {fileID: 400000, guid: 041c3b7691dc94bc196a5ee734bc5c93, type: 2}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23300000, guid: 041c3b7691dc94bc196a5ee734bc5c93, type: 2}
+      propertyPath: m_AngleLimits.m_LowerAngle
+      value: -30
+      objectReference: {fileID: 0}
+    - target: {fileID: 23300000, guid: 041c3b7691dc94bc196a5ee734bc5c93, type: 2}
+      propertyPath: m_AngleLimits.m_UpperAngle
+      value: 30
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 041c3b7691dc94bc196a5ee734bc5c93, type: 2}
