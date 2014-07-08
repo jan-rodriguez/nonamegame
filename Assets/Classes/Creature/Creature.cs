@@ -11,13 +11,14 @@ using System.Collections;
 
 public abstract class Creature : MonoBehaviour {
 
-
-	protected const int _maxHealth = 10;
-	protected int _health = 10;
 	protected const float _MAXSPEED = .1f;
+
+	protected int _maxHealth = 10;
+	protected int _health = 10;
+
 	protected float prevX = 0;
 	protected float prevY = 0;
-	protected ArrayList _adaptations = new ArrayList();
+	protected ArrayList _appendages = new ArrayList();
 
 	// Use this for initialization
 	abstract public void Start ();

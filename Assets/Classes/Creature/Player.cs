@@ -11,7 +11,7 @@ public class Player : Creature
 
 	public override void Start () {
 		//Initialize health
-		this._health = Creature._maxHealth;
+		this._health = this._maxHealth;
 
 		rigidBody = this.GetComponent<Rigidbody2D> ();
 	}
