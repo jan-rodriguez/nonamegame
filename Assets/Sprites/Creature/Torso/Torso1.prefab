@@ -12,7 +12,7 @@ GameObject:
   - 58: {fileID: 5800000}
   - 50: {fileID: 5000000}
   m_Layer: 0
-  m_Name: Torso
+  m_Name: Torso1
   m_TagString: Torso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
