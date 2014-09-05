@@ -8,12 +8,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400000}
+  - 212: {fileID: 21200000}
+  - 61: {fileID: 6100000}
   - 50: {fileID: 5000000}
-  - 233: {fileID: 23300000}
-  - 114: {fileID: 11400000}
   m_Layer: 0
-  m_Name: BodyBase
-  m_TagString: Untagged
+  m_Name: Tail4
+  m_TagString: Tail
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45,52 +45,39 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
---- !u!114 &11400000
-MonoBehaviour:
+--- !u!61 &6100000
+BoxCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f819403b944e4a039a59b8c25ba711e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  headList:
-  - {fileID: 100000, guid: 041c3b7691dc94bc196a5ee734bc5c93, type: 2}
-  - {fileID: 100000, guid: c1518a610f211461f91a5629d6d35304, type: 2}
-  - {fileID: 100000, guid: abeb777d536d54e90b3f7603b3fcb6c3, type: 2}
-  torsoList:
-  - {fileID: 100000, guid: 5e25f09a469a94e0a8c361ee4b27e0eb, type: 2}
-  - {fileID: 100000, guid: 6cb901661656e4d2d809248370255e8b, type: 2}
-  - {fileID: 100000, guid: 218693581c4de4a7a8c5ea6b019ec7fa, type: 2}
-  - {fileID: 100000, guid: 8a630ffb376374fe69718445e948f160, type: 2}
-  - {fileID: 100000, guid: 018025ca46f9f401b9c1dd89531cb542, type: 2}
-  tailList:
-  - {fileID: 100000, guid: b5f69e1d987ea4b9f934011a80a39ae0, type: 2}
-  - {fileID: 100000, guid: 411664a6946644022b08aaf765f4908d, type: 2}
-  - {fileID: 100000, guid: fd622131518bb4af6ab21618288c8b91, type: 2}
-  - {fileID: 100000, guid: 94045be227f3b4cc0bcb196fcff165c3, type: 2}
-  - {fileID: 100000, guid: 009d36b0ca9a047558f73aa6629f64e2, type: 2}
---- !u!233 &23300000
-HingeJoint2D:
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .200000003, y: .5}
+  m_Center: {x: 0, y: 0}
+--- !u!212 &21200000
+SpriteRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
-  m_CollideConnected: 0
-  m_ConnectedRigidBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0, y: 0}
-  m_UseMotor: 0
-  m_Motor:
-    m_MotorSpeed: 0
-    m_MaximumMotorForce: 10000
-  m_UseLimits: 0
-  m_AngleLimits:
-    m_LowerAngle: 0
-    m_UpperAngle: 359
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 3bc5c6644e01840e8990c84774f9d0d3, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

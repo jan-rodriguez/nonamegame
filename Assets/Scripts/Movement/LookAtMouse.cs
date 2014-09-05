@@ -3,7 +3,7 @@ using System.Collections;
 
 public class LookAtMouse : MonoBehaviour {
 
-	public const float MINANGLETOLERANCE = 5f;
+	public const float MINANGLETOLERANCE = 2f;
 	public const float ROTATIONFACTOR = 2f;
 	public const float MAXANGVEL = 75f;
 	
